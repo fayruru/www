@@ -160,25 +160,20 @@ html, body {
  background-repeat: no-repeat;
  background-position: top center;
 }
-#flat .line-break {
+#flat .line-break1 {
  background: linear-gradient(60deg, black, pink, brown);
  width: 100%;
  margin: 0 auto;
 }
-.tt {
-	color: 60deg, black;
+#flat .line-break2 {
+ background: linear-gradient(60deg, pink, brown, black);
+ width: 100%;
+ margin: 0 auto;
 }
-.yy {
-	color: 60deg, pink;
-}
-.ww {
-	color: 60deg, brown;
-}
-@media screen and (max-width: 959px) and (min-width: 768px) {
- #flat .block {
-  padding: 40px;
-  width: 620px;
- }
+#flat .line-break3 {
+ background: linear-gradient(60deg, brown, black, pink);
+ width: 100%;
+ margin: 0 auto;
 }
 @media screen and (max-width: 767px) {
  #flat .block {
